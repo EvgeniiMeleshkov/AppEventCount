@@ -35,13 +35,13 @@ class ViewController: UIViewController {
     }
 
     func updateView() {
-        didFinishLaunchingWithOptionsOutlet.text = "The App has launched \(appDelegate.launchCounts) time(s)"
-        configurationForConnectingOutlet.text = "The App Connected Scene Session\(appDelegate.configurationForConnectingCount) time(s)"
-        sceneWillConnectToOutlet.text = "Scene Will Connect \(willConnectCount) time(s)"
-        sceneDidBecomeActiveOutlet.text = "scene Did Become Active \(didBecomeActiveCount) time(s)"
-        sceneWillResignActiveOutlet.text = "scene Will Resign Active \(willResigneActiveCount) time(s)"
-        sceneWillEnterForegroundOutlet.text = "scene Will Enter Foreground \(willEnterForegroundCount) time(s)"
-        sceneDidEnterBackgroundOutlet.text = "scene Did Enter Background \(didEnterBackgroundCount) time(s)"
+        didFinishLaunchingWithOptionsOutlet.text = "The App has launched \(appDelegate.launchCounts)"
+        configurationForConnectingOutlet.text = "The App Connected Scene Session \(appDelegate.configurationForConnectingCount)"
+        sceneWillConnectToOutlet.text = "scene Will Connect \(willConnectCount)"
+        sceneDidBecomeActiveOutlet.text = "scene Did Become Active \(didBecomeActiveCount)"
+        sceneWillResignActiveOutlet.text = "scene Will Resign Active \(willResigneActiveCount)"
+        sceneWillEnterForegroundOutlet.text = "scene Will Enter Foreground \(willEnterForegroundCount)"
+        sceneDidEnterBackgroundOutlet.text = "scene Did Enter Background \(didEnterBackgroundCount)"
     }
     
     
